@@ -4,7 +4,6 @@ import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/utils/utils.dart';
 
-import 'package:folio/widget/social_links.dart';
 
 class HomeTab extends StatelessWidget {
   const HomeTab({Key? key}) : super(key: key);
@@ -118,8 +117,6 @@ class HomeTab extends StatelessWidget {
                     ],
                   ),
                 ),
-                Space.y2!,
-                const SocialLinks(),
               ],
             ),
           ),

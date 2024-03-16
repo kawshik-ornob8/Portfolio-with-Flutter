@@ -2,9 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/configs.dart';
-
 import 'package:folio/utils/utils.dart';
-import 'package:folio/widget/social_links.dart';
 
 class HomeDesktop extends StatelessWidget {
   const HomeDesktop({Key? key}) : super(key: key);
@@ -121,8 +119,7 @@ class HomeDesktop extends StatelessWidget {
                     ],
                   ),
                 ),
-                Space.y2!,
-                const SocialLinks(),
+
               ],
             ),
           ),

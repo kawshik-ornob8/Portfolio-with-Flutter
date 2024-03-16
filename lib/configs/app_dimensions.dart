@@ -62,8 +62,8 @@ class AppDimensions {
     """;
   }
 
-  static double space([double multiplier = 1.0]) {
-    return AppDimensions.padding! * 3 * multiplier;
+  static double space([double multiplier = 0.5]) {
+    return AppDimensions.padding! * 1.0 * multiplier;
   }
 
   static double normalize(double unit) {

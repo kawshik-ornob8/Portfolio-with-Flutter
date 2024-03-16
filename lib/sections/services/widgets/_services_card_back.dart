@@ -30,7 +30,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                 context: context,
                 builder: (contecxt) => AlertDialog(
                       title: Text(
-                        "Hire Me!",
+                        "Contact Me!",
                         style: AppText.b2b,
                       ),
                       actions: [
@@ -46,19 +46,19 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           MaterialButton(
                             height: 40.0,
                             onPressed: () => openURL(
-                              'https://api.whatsapp.com/send?phone=923460159889',
+                              'https://t.me/iam_kawshik',
                             ),
-                            color: const Color(0xff34CB62),
+                            color: Color.fromARGB(255, 0, 174, 255),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 const Icon(
-                                  FontAwesomeIcons.whatsapp,
+                                  FontAwesomeIcons.telegram,
                                   color: Colors.white,
                                 ),
                                 Space.x!,
                                 Text(
-                                  'WhatsApp',
+                                  'Telegram',
                                   style: AppText.l1!.copyWith(
                                     color: Colors.white,
                                   ),
@@ -70,22 +70,26 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           MaterialButton(
                             height: 40.0,
                             onPressed: () => openURL(
-                              'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
+                              'mailto:kawshik.ornob8@gmail.com',
                             ),
-                            color: const Color(0xff13A800),
+                            color: Color.fromARGB(255, 255, 255, 255),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
-                                Image.network(
-                                  'https://img.icons8.com/ios-filled/50/000000/upwork.png',
-                                  height: 35.0,
-                                  color: Colors.white,
+                                Image.asset(
+                                  'assets/services/gmail.png',
+                                  height: 35.0, // specify height if needed
                                 ),
+                                //Image.network(
+                                //  'https://icons8.com/icon/P7UIlhbpWzZm/gmail',
+                                //  height: 35.0,
+                                //  color: Colors.white,
+                                //),
                                 Space.x!,
                                 Text(
-                                  'Upwork',
+                                  'Email',
                                   style: AppText.l1!.copyWith(
-                                    color: Colors.white,
+                                    color: const Color.fromARGB(255, 0, 0, 0),
                                   ),
                                 ),
                               ],
@@ -95,7 +99,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                       ),
                     )),
             child: Text(
-              'HIRE ME!',
+              'Contact me!',
               style: AppText.b2!.copyWith(
                 color: Colors.white,
               ),
