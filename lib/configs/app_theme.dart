@@ -21,12 +21,12 @@ class AppTheme {
   );
 
   static AppCoreTheme dark = _core.copyWith(
-    background: Colors.grey[900],
+      /*background: Colors.grey[900],
     backgroundSub: const Color(0xff1c1c1e),
     scaffold: const Color(0xff0e0e0e),
     text: Colors.white,
-    textSub2: Colors.white.withOpacity(0.25),
-  );
+    textSub2: Colors.white.withOpacity(0.25),*/
+      );
 
   static AppCoreTheme? c;
 

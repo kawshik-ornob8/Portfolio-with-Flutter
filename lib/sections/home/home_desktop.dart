@@ -119,7 +119,6 @@ class HomeDesktop extends StatelessWidget {
                     ],
                   ),
                 ),
-
               ],
             ),
           ),

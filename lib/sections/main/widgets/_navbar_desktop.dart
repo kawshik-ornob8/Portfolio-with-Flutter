@@ -48,7 +48,7 @@ class _NavbarDesktop extends StatelessWidget {
             ),
           ),
           Space.x!,
-          Switch(
+          /*Switch(
             inactiveTrackColor: Colors.grey,
             value: appProvider.isDark,
             onChanged: (value) {
@@ -57,7 +57,7 @@ class _NavbarDesktop extends StatelessWidget {
               );
             },
             activeColor: AppTheme.c!.primary!,
-          ),
+          ),*/
           Space.x!,
         ],
       ),
